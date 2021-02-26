@@ -6,8 +6,8 @@ arr.forEach(elementy =>{
 })
 
 //zadanie 2 
-const wszytsko = arr.every(item =>{
-    if(item >1){
+const wszytsko = arr.some(item =>{
+    if(item > 1){
         return item
     }
 })
