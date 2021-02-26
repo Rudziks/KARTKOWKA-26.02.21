@@ -7,7 +7,7 @@ arr.forEach(elementy =>{
 
 //zadanie 2 
 const wszytsko = arr.every(item =>{
-    if(item >=10){
+    if(item >1){
         return item
     }
 })
